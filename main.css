@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  background: cadetblue;
+  margin: 0px;
+}
+
+.title {
+  text-align: left;
+  flex: 1;
+  color: darkblue;
+}
+
+nav {
+  flex: 1;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo{
+  width: 8em;
+}
+
+.headline {
+  flex: 1;
+}
+
+.content {
+  display: flex;
+}
+
+.container-left {
+margin: 0;
+flex: 3;
+padding: 1px;
+}
+
+
+
+.fish {
+}
+
+.fish_image {
+  height: 50px;
+  width: 50px;
+}
+
+.fishlist {
+font-family:cursive;
+color: cornflowerblue;
+display: flex;
+justify-content: space-between;
+background: darkblue;
+width: 75%;
+flex-wrap: wrap;
+}
+
+.quote-list {
+font-family:cursive;
+background: cornflowerblue;
+color: darkblue;
+width: 75%;
+}
+
+.location-list {
+font-family:cursive;
+background: darkgray;
+color: saddlebrown;
+width: 75%;
+}
+
+
+aside {
+  float: right;
+  width: 25%;
