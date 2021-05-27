@@ -34,6 +34,8 @@ nav {
 margin: 0;
 flex: 3;
 padding: 1px;
+width: 75%;
+float: left;
 }
 
 
@@ -52,17 +54,15 @@ color: cornflowerblue;
 display: flex;
 justify-content: space-between;
 background: darkblue;
-width: 75%;
 flex-wrap: wrap;
-float: left;
+
 }
 
 .quote-list {
 font-family:cursive;
 background: cornflowerblue;
 color: darkblue;
-width: 75%;
-float: left;
+;
 
 }
 
@@ -70,15 +70,18 @@ float: left;
 font-family:cursive;
 background: darkgray;
 color: saddlebrown;
-width: 75%;
-float: left;
+
 }
 
 
-contatiner-right {
-  font-family:cursive;
-  background: darkgray;
-  color: saddlebrown;
-  width: 25%;
-  float: right;
+.container-right {
+height: 676px;
+width: 24%;
+background-color: orange;
+margin: 0;
+float: right;
+}
+
+body {
+  background-color: rgb(54, 51, 51);
 }
